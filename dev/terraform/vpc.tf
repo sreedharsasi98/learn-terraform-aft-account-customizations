@@ -1,6 +1,6 @@
-# provider "aws" {
-#   region = "us-west-1"
-# }
+provider "aws" {
+  region = "us-west-1"
+}
 
 # Fetch available availability zones dynamically
 data "aws_availability_zones" "available" {
